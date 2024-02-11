@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #fff4f4;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  [class*="col-"] {
+    padding: 15px;
+    box-sizing: border-box; /* จัดการ padding ให้ไม่เพิ่มความกว้างที่ไม่ต้องการ */
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    background-color: #353435;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center; /* จัดให้ข้อความตรงกลาง */
+    width: 100%; /* ให้ header รองรับการเปลี่ยนขนาด */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .navbar li {
+    padding: 10px; 
+    margin: 1%;
+    background-color: #353435;
+    color: #f6ebeb;
+    border-radius: 25px; 
+    white-space: nowrap;
+    flex-wrap: wrap; 
+    flex-direction: column; 
+  }
+  
+  
+  
+  
+  .col-6.col-s-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9bcc9;
+    border-radius: 5%;
+    padding: 20px;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  
+  .col-6.col-s-9 img {
+    max-width: 50%; 
+    max-height: auto; 
+    border-radius: 5%;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+  
+  }
+  
+  
+  .aside {
+    background-color: #353435;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 100%; 
+    
+    
+  }
+  
+  .footer {
+    background-color: #353435;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    width: 100%; 
+    margin-top: 17.5% ;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;display: flex;align-items: center;justify-content: center;}
+    .col-s-2 {width: 16.66%;display: flex;align-items: center;justify-content: center;}
+    .col-s-3 {width: 25%;display: flex;align-items: center;justify-content: center;}
+    .col-s-4 {width: 33.33%;display: flex;align-items: center;justify-content: center;}
+    .col-s-5 {width: 41.66%;display: flex;align-items: center;justify-content: center;}
+    .col-s-6 {width: 50%;display: flex;align-items: center;justify-content: center;}
+    .col-s-7 {width: 58.33%;display: flex;align-items: center;justify-content: center;}
+    .col-s-8 {width: 66.66%;display: flex;align-items: center;justify-content: center;}
+    .col-s-9 {width: 75%;display: flex;align-items: center;justify-content: center;}
+    .col-s-10 {width: 83.33%;display: flex;align-items: center;justify-content: center;}
+    .col-s-11 {width: 91.66%;display: flex;align-items: center;justify-content: center;}
+    .col-s-12 {width: 100%;display: flex;align-items: center;justify-content: center;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;display: flex;align-items: center;justify-content: center;}
+    .col-2 {width: 16.66%;display: flex;align-items: center;justify-content: center;}
+    .col-3 {width: 25%;display: flex;align-items: center;justify-content: center;}
+    .col-4 {width: 33.33%;display: flex;align-items: center;justify-content: center;}
+    .col-5 {width: 41.66%;display: flex;align-items: center;justify-content: center;}
+    .col-6 {width: 50%;display: flex;align-items: center;justify-content: center;}
+    .col-7 {width: 58.33%;display: flex;align-items: center;justify-content: center;}
+    .col-8 {width: 66.66%;display: flex;align-items: center;justify-content: center;}
+    .col-9 {width: 75%;display: flex;align-items: center;justify-content: center;}
+    .col-10 {width: 83.33%;display: flex;align-items: center;justify-content: center;}
+    .col-11 {width: 91.66%;display: flex;align-items: center;justify-content: center;}
+    .col-12 {width: 100%;display: flex;align-items: center;justify-content: center;}
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 120px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .navbar a:link {
+    color: #ffffff;
+  }
+  
+  .navbar a:visited {
+    color: #fffdfd;
+  }
+  
+  
+  
+  .navbar li:hover {
+    background-color: #ab9f9f;
+    transition: background-color 0.8s ease;
+  }
+  
