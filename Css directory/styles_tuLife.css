@@ -17,7 +17,7 @@
   
   [class*="col-"] {
     padding: 15px;
-    box-sizing: border-box; /* จัดการ padding ให้ไม่เพิ่มความกว้างที่ไม่ต้องการ */
+    box-sizing: border-box; 
   }
   
   html {
@@ -28,8 +28,8 @@
     background-color: #353435;
     color: #ffffff;
     padding: 15px;
-    text-align: center; /* จัดให้ข้อความตรงกลาง */
-    width: 100%; /* ให้ header รองรับการเปลี่ยนขนาด */
+    text-align: center;
+    width: 100%; 
   }
   
   .navbar ul {
