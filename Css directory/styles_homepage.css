@@ -39,6 +39,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
   
 }
 
@@ -101,6 +102,7 @@ html {
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+  .navbar ul {flex-direction: row;}
   .col-s-1 {width: 8.33%;display: flex;align-items: center;justify-content: center;}
   .col-s-2 {width: 16.66%;display: flex;align-items: center;justify-content: center;}
   .col-s-3 {width: 25%;display: flex;align-items: center;justify-content: center;}
@@ -116,6 +118,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+  .navbar ul {flex-direction: row;}
   .col-1 {width: 8.33%;display: flex;align-items: center;justify-content: center;}
   .col-2 {width: 16.66%;display: flex;align-items: center;justify-content: center;}
   .col-3 {width: 25%;display: flex;align-items: center;justify-content: center;}
